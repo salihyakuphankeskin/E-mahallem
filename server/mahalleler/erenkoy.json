@@ -1,0 +1,27 @@
+{
+    "ad": "Erenköy",
+    "lokasyon": "Selçuklu/Konya",
+    "post": "42100",
+    "temp": "10",
+    "hdurumu": "Bulutlu",
+    "hkalite": "Orta",
+    "nufus": "13,209",
+    "yuzolcum": "3,843",
+    "duyurular": [
+        {
+            "title": "Muhtar Seçimi",
+            "tarih": "23 Haziran",
+            "duyuru": "23 Haziran'da muhtar seçimi vardır"
+        },
+        {
+            "title": "Kayıp",
+            "tarih": "22 Haziran",
+            "duyuru": "22 Haziran'da evcil hayvanım Duman kaybolmuştur, bulan kişiye para ödülü vereceğim. Lütfen iletişime geçin.(İsmine duyarlıdır)"
+        },
+        {
+            "title": "Duyuru",
+            "tarih": "29 Mayıs",
+            "duyuru": "Erenköy mahallemizin saygın iş adamlarından olan Mahmut Adnan Şimşek vefat etmiştir."
+        }
+    ]
+}

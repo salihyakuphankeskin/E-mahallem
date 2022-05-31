@@ -1,0 +1,27 @@
+{
+    "ad": "Melikşah",
+    "lokasyon": "Meram/Konya",
+    "post": "42090",
+    "temp": "13",
+    "hdurumu": "Güneşli",
+    "hkalite": "Normal",
+    "nufus": "13.254",
+    "yuzolcum": "4.678",
+    "duyurular": [
+        {
+            "title": "Kayıp Eşya",
+            "tarih": "28 Mayıs",
+            "duyuru": "Melikşah Dinlenme Tesislerinde bir adet erkek nüfuz cüzdanı bulunmuştur. Muhtarlıktan teslim alabilirsiniz."
+        },
+        {
+            "title": "Asfalt Yenileme Çalışmaları",
+            "tarih": "27 Mayıs",
+            "duyuru": "Evliya Çelebi Caddesinde asfalt yenileme çalışmaları vardır"
+        },
+        {
+            "title": "Duyuru",
+            "tarih": "27 Mayıs",
+            "duyuru": "Mahellemizin Pttden emekli Avni Taş (62) vefat etmiştir. Cenazesi öğle namazından sonra Meram Camisinden kalkacaktır."
+        }
+    ]
+}

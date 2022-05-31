@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahalle Haritası</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="Mmain">
+        <img class="map" src="./melik.svg" alt="">
+        <div class="Mheader">
+            <div class="Mopt" onclick="buttonPress(parks,this)">
+                <img class="Micon" src="./icons/park.svg" alt="">
+                <div class="Mtext">Parklar</div>
+            </div>
+            <!-- restaurants pharmacies hotels visits libraries markets cafes oils -->
+            <div class="Mopt" onclick="buttonPress(restaurants,this)">
+                <img class="Micon" src="./icons/restaurant.svg" alt="">
+                <div class="Mtext">Restaurantlar</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(pharmacies,this)">
+                <img class="Micon" src="./icons/pharmacy.svg" alt="">
+                <div class="Mtext">Eczaneler</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(hotels,this)">
+                <img class="Micon" src="./icons/hotel.svg" alt="">
+                <div class="Mtext">Konaklama</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(visits,this)">
+                <img class="Micon" src="./icons/visit.svg" alt="">
+                <div class="Mtext">Gezilecek Yerler</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(libraries,this)">
+                <img class="Micon" src="./icons/library.svg" alt="">
+                <div class="Mtext">Kütüphaneler</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(markets,this)">
+                <img class="Micon" src="./icons/market.svg" alt="">
+                <div class="Mtext">Marketler</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(cafes,this)">
+                <img class="Micon" src="./icons/cafe.svg" alt="">
+                <div class="Mtext">Kafeler</div>
+            </div>
+            <div class="Mopt" onclick="buttonPress(oils,this)">
+                <img class="Micon" src="./icons/oil.svg" alt="">
+                <div class="Mtext">Akaryakıt İstasyonları</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

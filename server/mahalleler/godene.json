@@ -1,0 +1,27 @@
+{
+    "ad": "Gödene",
+    "lokasyon": "Meram/Konya",
+    "post": "42140",
+    "temp": "15",
+    "hdurumu": "Güneşli",
+    "hkalite": "Mükemmel",
+    "nufus": "15,481",
+    "yuzolcum": "38,888",
+    "duyurular": [
+        {
+            "title": "Bina Yıkım Çalışması",
+            "tarih": "30 Mayıs",
+            "duyuru": "Değerli Gödeneli vatandaşlarımız, Hatunsaray caddesi yakınında kaçak olarak yapıldığı tespit edilen konut yıkılacaktır. "
+        },
+        {
+            "title": "Altyapı Çalışması",
+            "tarih": "28 Mayıs",
+            "duyuru": "Yeşilbağ Caddesinde atık su alt yapısı yenilenecektir."
+        },
+        {
+            "title": "Planlı elektrik kesintisi",
+            "tarih": "23 Mayıs",
+            "duyuru": "Gödene Mahallemizin tamamında planlı elektrik kesintisi yapılacaktır. Anlayışınız için teşekkür ederiz."
+        }
+    ]
+}

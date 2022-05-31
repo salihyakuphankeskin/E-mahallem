@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Mmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mheader {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+    gap: .5vw;
+    padding: 1vh .5vw 1vh;
+    border-top: solid .3vh rgba(255, 255, 255, 0.459);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    backdrop-filter: blur(14px);
+}
+
+.map {
+    width: 110%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.Mopt {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    background-color: #F8F9FA;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    user-select: none;
+    font-size: 160%;
+    border-radius: .1vw;
+    box-shadow: rgba(14, 30, 37, 0.2) 0px 1px 2px 0px, rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.Mopt:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    background-color: #ffffff;
+
+    z-index: 2;
+}
+
+.Mopt:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.Mopt.active {
+    background-color: #ffd91a;
+
+    font-weight: bold;
+    transform: scale(0.95);
+}
+
+.Micon {
+    height: 60%;
+    width: auto;
+
+}
+
+.icon {
+    position: absolute;
+    display: block;
+    width: 2.6vw;
+    height: auto;
+    z-index: 10;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    opacity: 40%;
+}

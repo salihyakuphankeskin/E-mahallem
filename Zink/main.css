@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.main {
+    background-color: #fcfcfc;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    aspect-ratio: 14 / 9;
+    width: auto;
+    height: 95vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    padding-left: 2%;
+    flex: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.headSect,
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    font-size: 1em;
+    height: 100%;
+    min-width: 15%;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.headSect:hover {
+    fill: #5596d6;
+    color: #5596d6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headIcon {
+    height: 35%;
+    width: auto;
+}
+
+.base {
+    display: flex;
+    flex: 7;
+    flex-direction: row;
+    padding: 1%;
+    gap: 2%;
+}
+
+.foto {
+    flex: 9;
+    box-shadow: rgba(14, 30, 37, 0.2) 0px 1px 2px 0px, rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.ana {
+    object-fit: cover;
+    width: 100%;
+    height: 125%;
+    overflow: hidden;
+
+}
+
+.arrow {
+    position: absolute;
+    aspect-ratio: 2 / 10;
+    width: auto;
+    height: 56%;
+    overflow: hidden;
+}
+
+.rarr {
+    right: 44.25vw;
+}
+
+
+.arrow {
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+    fill: #F8F9FA;
+}
+
+
+.arrow:hover {
+    fill: #252525;
+}
+
+.duyuru {
+    flex: 6;
+    border-radius: .1vw;
+    box-shadow: rgba(14, 30, 37, 0.2) 0px 1px 2px 0px, rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2%;
+    padding: 1%;
+}
+
+.part {
+    flex: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1% 1% 1%;
+
+}
+
+.duytop {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    align-items: center;
+    gap: 1%;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.duyic {
+    height: 1.5vw;
+    width: auto;
+    object-fit: scale-down;
+}
+
+.duybody {
+    flex: 1;
+    font-size: .8em;
+}
+
+.duybot {
+    font-size: .8em;
+    height: 20%;
+}
+
+.emp {
+    box-shadow: unset;
+    border: unset;
+}
+
+.imp {
+    border: solid rgba(214, 3, 3, 0.3) .2vw;
+}
+
+.himp {
+    border: solid rgba(214, 210, 3, 0.3) .2vw;
+}
+
+.midbar {
+    flex: 1;
+    box-shadow: rgba(14, 30, 37, 0.2) 0px 1px 2px 0px, rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+    display: flex;
+    overflow: hidden;
+    gap: 1%;
+    justify-content: space-between;
+    padding: 0 2% 0;
+}
+
+.midsect {
+    height: 100%;
+    flex: 1;
+    gap: 5%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.micon {
+    aspect-ratio: 4 / 4;
+    height: 60%;
+    width: auto;
+}
+
+.miat {
+    font-size: .5em;
+    gap: 1%;
+}
+
+.celc {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: 200;
+    font-size: 1.15em;
+    color: #252525;
+}
+
+.footer {
+    display: flex;
+    flex: 1.25;
+    gap: 1%;
+    padding: 1%;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px,
+        rgba(0, 0, 0, 0.5) 0px 3px 6px;
+
+}
+
+.Mopt {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F8F9FA;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    user-select: none;
+    font-size: 1.4em;
+    border-radius: .1vw;
+    box-shadow: rgba(14, 30, 37, 0.2) 0px 1px 2px 0px, rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.Mopt:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    background-color: #ffffff;
+
+    z-index: 2;
+}
+
+.Mopt:active {
+    transform: scale(0.92);
+    cursor: pointer;
+}
+
+.Mopt.active {
+    background-color: #ffd91a;
+
+    font-weight: bold;
+    transform: scale(0.95);
+}
